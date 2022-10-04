@@ -1,0 +1,44 @@
+body {
+    background-color: lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: maroon;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    border: solid;
+    padding: 5px;
+    background-color: aqua;
+}
+
+nav a:hover {
+    background-color: black;
+    color: aqua;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+.active {
+    background-color: blue;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p::before, footer p::after {
+    content: '/';
+    font-size: 30px;
+    font-weight: 700;
+    color: blue;
+}
